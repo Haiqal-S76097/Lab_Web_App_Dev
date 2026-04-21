@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Customer Purchase</h2>
+
+    <form action="processCustomer.jsp" method="post">
+        Customer Code:
+        <input type="text" name="customerCode" required><br><br>
+
+        Customer Type:
+        <input type="radio" name="customerType" value="1" required> Normal
+        <input type="radio" name="customerType" value="2"> Privilege <br><br>
+
+        Quantity:
+        <input type="number" name="quantity" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
